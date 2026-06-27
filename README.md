@@ -45,7 +45,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ## 💻 사용 방법
 
-분석하고 싶은 CSV 또는 Excel 파일을 `data/` 폴더에 넣은 후 프로그램을 실행하고 자연어로 명령을 입력하세요.
+분석하고 싶은 CSV 또는 Excel 파일을 `Data/` 폴더에 넣은 후 프로그램을 실행하고 자연어로 명령을 입력하세요.
 
 ```bash
 python main.py
@@ -53,7 +53,7 @@ python main.py
 
 **💡 사용 예시 (Prompt):**
 ```text
-🤖 파일 선택: data/sales_2026.csv
+🤖 파일 선택: Data/sales_2026.csv
 💬 명령 입력: "상위 5개 제품의 월별 판매량을 막대그래프(Bar chart)로 그려주고, 이미지로 저장해줘"
 "꺾은선 그래프 테스트 (시계열 분석) Date별로 Sales의 트렌드를 보여주는 꺾은선 그래프를 그리고 저장해줘"
 "막대그래프 테스트 (그룹화 비교) Category별 Sales의 총합을 구하고, 이를 보기 좋은 막대그래프로 시각화해줘"
@@ -67,7 +67,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 데이터 로드
-df = pd.read_csv('data/sales_2026.csv')
+df = pd.read_csv('Data/sales_2026.csv')
 
 # Codex가 생성한 분석 및 시각화 로직 실행...
 # (결과물로 'output_chart.png'가 자동 생성됩니다.)

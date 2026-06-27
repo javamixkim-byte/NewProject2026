@@ -67,7 +67,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 데이터 로드
-df = pd.read_csv('Data/sales_2026.csv')
+df = pd.read_csv('Data/sample.csv')
 
 # Codex가 생성한 분석 및 시각화 로직 실행...
 # (결과물로 'output_chart.png'가 자동 생성됩니다.)

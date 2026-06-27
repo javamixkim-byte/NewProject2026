@@ -12,7 +12,7 @@ if not api_key:
 # OpenAI 클라이언트 초기화 (최신 openai>=1.0.0 버전 기준)
 client = openai.OpenAI(api_key=api_key)
 
-def generate_data_code(user_prompt, file_path="data/sample.csv"):
+def generate_data_code(user_prompt, file_path="Data/sample.csv"):
     """
     사용자의 자연어 명령을 기반으로 데이터 분석 및 시각화 파이썬 코드를 생성합니다.
     """
@@ -71,7 +71,7 @@ if __name__ == "__main__":
     print("=== 📊 OpenAI 기반 데이터 분석 자동화 툴 ===")
     
     # 테스트용 파일 경로와 사용자 명령 예시
-    csv_file = "data/sample.csv" 
+    csv_file = "Data/sample.csv" 
     prompt = "이 파일에서 매출(sales) 컬럼의 월별 추이를 꺾은선 그래프로 그리고 이미지로 저장해줘."
     
     # 1. 코드 생성

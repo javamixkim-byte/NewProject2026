@@ -1,0 +1,13 @@
+Date,Category,Product,Sales,Quantity,Region
+2026-01-15,Electronics,Laptop,1200000,1,Seoul
+2026-01-18,Furniture,Chair,85000,3,Busan
+2026-02-12,Electronics,Smartphone,950000,2,Seoul
+2026-02-20,Clothing,Jacket,120000,4,Incheon
+2026-03-05,Furniture,Desk,250000,1,Busan
+2026-03-22,Clothing,T-shirt,35000,10,Seoul
+2026-04-10,Electronics,Laptop,2400000,2,Incheon
+2026-04-25,Furniture,Chair,170000,6,Seoul
+2026-05-02,Clothing,Jacket,240000,8,Busan
+2026-05-19,Electronics,Smartphone,1900000,4,Seoul
+2026-06-07,Furniture,Desk,500000,2,Incheon
+2026-06-30,Clothing,T-shirt,70000,20,Busan
